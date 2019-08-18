@@ -1,0 +1,15 @@
+{
+  "params": {
+    "lr": 1e-2
+  },
+  "nn": {
+    "activation": "LeakyReLU",
+    "hidden_dimension": 128
+  },
+  "num_epochs": 100,
+  "print_step": 10,
+  "batch_size": 300,
+  "validation_size": 0.2,
+  "test_size": 0.1,
+  "device": "cpu"
+}
